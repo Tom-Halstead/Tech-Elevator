@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("I am enjoying learning the ins and outs of Java");
@@ -11,6 +14,15 @@ public class App {
         System.out.println(intro);
         String introAndExcla = addExclamationPoint(intro);
         System.out.println(introAndExcla);
+
+        ArrayList<Integer> a = new ArrayList<Integer>();
+        a.add(2);
+        a.add(4);
+        System.out.println(a);
+
+
+        int[] arrayTest = { 1, 2, 3, 4, 5, 6 };
+                System.out.println(Arrays.toString(arrayTest));
 
     }
 
