@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+// import java.util.ArrayList;
 import java.util.Arrays;
 
 public class App {
@@ -15,14 +15,10 @@ public class App {
         String introAndExcla = addExclamationPoint(intro);
         System.out.println(introAndExcla);
 
-        ArrayList<Integer> a = new ArrayList<Integer>();
-        a.add(2);
-        a.add(4);
-        System.out.println(a);
-
-
-        int[] arrayTest = { 1, 2, 3, 4, 5, 6 };
-                System.out.println(Arrays.toString(arrayTest));
+        int intArray[];
+        intArray = new int[2];
+        System.out.println(Arrays.toString(intArray));
+        System.out.println(intArray.length);
 
     }
 
