@@ -8,6 +8,7 @@ public class Dog {
     myDog.setAge(2);
     System.out.println(myDog.getName());
     System.out.println(myDog.getAge());
+     
 
 
   }
